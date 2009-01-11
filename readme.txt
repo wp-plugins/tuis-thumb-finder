@@ -46,7 +46,7 @@ That would be great and certainly would help development efforts. To do so [clic
 
 = How do I report at bug? =
 
-The easiest way would be to email me [email me](mailto:stephen@stephenbaugh.com) or via the [plugin home page](http://www.stephenbaugh.com/blog/wordpress-plugins/find-thumb/)
+The easiest way is to visit my Google Code Project and [register an issue](http://code.google.com/p/tui-find-thumb/issues/list)
 
 == Screenshots ==
 
@@ -66,35 +66,35 @@ The easiest way would be to email me [email me](mailto:stephen@stephenbaugh.com)
 
 == Functions available ==
 
-There are 4 funtions that can be accessed through this plugin.
+There are 5 funtions that can be accessed through this plugin.
 
-**1, tui_generaterandomimage()**
-
-	Returns a random image URL from base image folder
-
-**2, tui_generateRandomBGStyle()**
+**1. tui_findRandomBackgroundSTYLE()**
 
 	Returns a random image URL from the background images folder if one exists else the base image folder.
 
-**3, tui_generateRandomImgTag('image height','image width','class description')**
+**2, tui_findRandomThumbURL()**
 
-	Returns an IMG tag, containing the URL, height, width, alt, title and class. Alt and Title are the image name.
+	Returns a random image URL from base image folder
 
-**4, tui_GeneratePostThumb('thepostID','image height','image width','class description')**
+**3. tui_findRandomThumbIMG("Height","Width","Class","Title","Alt")**
 
-	Returns an IMG tag, containing the URL, height, width, alt, title and class. Alt and Title are the image name, unless stored in the post meta data.
+	Returns a random image IMG Tage from base image folder
+
+**4. tui_findPostThumbURL("thepostID")**
+
+	Returns a URL, having searched based on the postID
+
+**5. tui_findPostThumbIMG("thepostID","Height","Width","Class","Title","Alt")**
+
+	Returns an IMG tag, containing the URL, height, width, alt, title and class, having searched based on the postID
 
 == Support ==
 
 
 
-Support can be found on plugin homepage: http://www.alakhnor.com/post-thumb
-
-
+Support can be found on plugin homepage: http://www.stephenbaugh.com/blog/wordpress-plugins/find-thumb/
 
 You can also view project here: http://code.google.com/p/tui-find-thumb/
-
-
 
  * Additional documentation: http://code.google.com/p/tui-find-thumb/w/list
 
