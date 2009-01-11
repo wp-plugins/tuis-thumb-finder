@@ -4,7 +4,7 @@ Donate link: http://www.stephenbaugh.com/donation.php
 Tags: category, thumbs, formatting, media, images, thumbnail, themes, admin, post, png, jpg, gif
 Requires at least: 2.0.2
 Tested up to: 2.7
-Stable tag: 1.01
+Stable tag: 1.02
 
 This plugin has been written to provide various ways to return an *image thumb* either as a URL or IMG tag. There are four functions.
 
@@ -50,17 +50,17 @@ The easiest way is to visit my Google Code Project and [register an issue](http:
 
 == Screenshots ==
 
-1. Sample of a theme using a thumbnail image
-2. Download then activate the plugin
-3. Goto plugin settings page
-4. Set up the base directory for your images.png
-5. Set up the default css class to use and thumbnail name
-6. How should your thumbnails be scaled and what size by default
-7. If you need more help look at the top right hand corner of the options page
-8. Now it's time to edit your theme. Look for where thumbnails are used
-9. Replace with code that uses our plugin
-10. If you know the plugin will remain installed don't worry about error checking
-11. Now go find out the "slug" names for each of your categories
+1. Sample of a theme using a thumbnail image.
+2. Download then activate the plugin.
+3. Goto plugin settings page.
+4. Set up the base directory for your images.
+5. Set up the default css class to use and thumbnail name.
+6. How should your thumbnails be scaled and what size by default.
+7. If you need more help look at the top right hand corner of the options page.
+8. Now it's time to edit your theme. Look for where thumbnails are used and remove code like this that was in my theme.
+9. And also remove this. Obviously, be careful, have a backup and make sure you know what you are doing.
+10. Replace all that with something like this. If you know the plugin will remain installed don't worry about error checking.
+11. Now go find out the "slug" names for each of your categories.
 12. Finally using your ftp client set up matching directories in your base image directory, up load those images you want to be random.
 
 
