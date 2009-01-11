@@ -4,7 +4,7 @@ Donate link: http://www.stephenbaugh.com/donation.php
 Tags: category, thumbs, formatting, media, images, thumbnail, themes, admin, post, png, jpg, gif
 Requires at least: 2.0.2
 Tested up to: 2.7
-Stable tag: 1.0
+Stable tag: 1.01
 
 This plugin has been written to provide various ways to return an *image thumb* either as a URL or IMG tag. There are four functions.
 
@@ -86,11 +86,21 @@ There are 4 funtions that can be accessed through this plugin.
 
 == Support ==
 
+
+
 Support can be found on plugin homepage: http://www.alakhnor.com/post-thumb
+
+
 
 You can also view project here: http://code.google.com/p/tui-find-thumb/
 
+
+
  * Additional documentation: http://code.google.com/p/tui-find-thumb/w/list
+
  * Issues & requests: http://code.google.com/p/tui-find-thumb/issues/list
+
  * Development version: http://code.google.com/p/tui-find-thumb/source/
+
  * Change logs: http://code.google.com/p/tui-find-thumb/wiki/Changelogs
+

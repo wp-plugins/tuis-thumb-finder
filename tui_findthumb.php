@@ -2,7 +2,7 @@
   /*
   Plugin Name: Tui's Find Thumb
   Plugin URI:  http://www.stephenbaugh.com/blog/wordpress-plugins/find-thumb/
-  Version:     1.0
+  Version:     1.01
   Description: Selects a random image from a specified folder, this folder is selected on the basis 
   of the category slug and provides various options for using it.  Current supported methods generate an
   Image Tag, A URL only option, and a "background" entry for use in a stylesheet. This plugin is based on Random Image Selector by Keith Murray http://kdmurray.net
@@ -457,7 +457,7 @@ $theargs = 'post_parent='.$thepostID.'&post_type=attachment&post_mime_type=image
 
 
 
-function tui_findImageBasedOnSlug($categorySlug)
+function tui_findImageBasedOnSlug($categorySlug='')
 {
 
     $physicalPath = get_option('tui_findthumb_path');
